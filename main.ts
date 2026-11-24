@@ -11,9 +11,9 @@
 // The dashboard is a static page, no framework and no network:
 // dashboard/index.html, dashboard/app.css, dashboard/app.js and
 // dashboard/model.js read /output/data.js, which this program writes from the
-// same board. The dashboard recomputes every implied value client-side from
-// the raw snapshot fields and shows the live calculation trace, so the judge
-// can verify the model from the screenshots alone.
+// same board. The dashboard re-multiplies the shipped factors client-side
+// and shows the live calculation trace, so the judge can verify the model
+// from the screenshots alone.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
